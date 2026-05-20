@@ -1,0 +1,31 @@
+name: magic_piano_quest
+description: A high-performance piano tile rhythm game optimized for Android with neon aesthetics for kids.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.5.1
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/sounds/
+
+  fonts:
+    - family: NeonFont
+      fonts:
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
