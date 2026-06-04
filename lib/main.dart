@@ -3,6 +3,7 @@ import 'package:flutter/scheduler.dart';
 import 'dart:math';
 import 'package:audioplayers/audioplayers.dart';
 
+
 void main() {
   runApp(const MagicPianoQuestApp());
 }
